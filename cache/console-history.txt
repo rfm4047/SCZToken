@@ -1,0 +1,317 @@
+console.log("✅ Transferencia exitosa:", tx.hash);
+console.log("Código del contrato:", code);
+const code = await ethers.provider.getCode("0xB03356Db673CB18C7A2aF17578ac2a0D6A08875b");
+console.log("✅ Transferencia exitosa:", tx.hash);
+await tx.wait();
+const tx = await SCZToken.transfer(recipient, amount);
+const amount = ethers.parseUnits("0.01", 18);
+const recipient = "0x60d4A409c025E9c792D7EdF8398A9F9a3DDF44DB"; 
+const SCZToken = await ethers.getContractAt("SCZToken", "0x03A5380Ad3efDf111061FD3F042DEF6654163B3b", signer);console.log("SCZToken conectado en:", SCZToken.target);
+const [mySigner] = await ethers.getSigners();console.log("Cuenta conectada:", mySigner.address);
+const [mySigner] = await ethers.getSigners();
+console
+const [signer] = await ethers.getSigners();
+console
+const [signer] = await ethers.getSigners();
+console.log(JSON.stringify(network, null, 2));
+console.log("Conectado a la red:", network);
+const network = await ethers.provider.getNetwork();
+console.log("Código del contrato:", code);
+const code = await ethers.provider.getCode(contractAddress);
+const contractAddress = "0xC9115fE453Fb10B4e3c824a64Dba6e66abc04C0A";
+.exit
+npx hardhat verify --network fuji 0xC9115fE453Fb10B4e3c824a64Dba6e66abc04C0A --constructor-args arguments.js
+console.log(tx);
+const tx = await ethers.provider.getTransaction("0xea01f466cf852f29c4211e5bf05ecc2d950127597cb26b8a15894aef4494a37a");
+console.log(txReceipt);
+const txReceipt = await ethers.provider.getTransactionReceipt("0xea01f466cf852f29c4211e5bf05ecc2d950127597cb26b8a15894aef4494a37a");
+console.log(txReceipt);
+const txReceipt = await ethers.provider.getTransactionReceipt("0xea01f466cf852f29c4211e5bf05ecc2d950127597cb26b8a15894aef4494a37a");
+const txReceipt = await ethers.provider.getTransacconsole.log(txReceipt);
+const txReceipt = await ethers.provider.getTransac127597cb26b8a15894aef4494a37a"); console.log (txReceipt);
+console.log(txReceipt);
+const txReceipt = await ethers.provider.getTransac127597cb26b8a15894aef4494a37a");
+const txReceipt = await ethers.provider.getTransacconsole.log(txReceipt);
+ const txReceipt = await ethers.provider.getTransaconsole.log(txReceipt);
+const txReceipt = await ethers.provider.getTransacconsole.log(txReceipt);
+const txR
+console.log("✅ Transferencia exitosa:", tx.hash);
+await tx.wait();
+const tx = await SCZToken.connect(sender).transfer(recipient, amount);
+const amount = ethers.parseUnits("100", 18); // Monto en SCZ Toke
+const recipient = "0x60d4A409c025E9c792D7EdF8398A9F9a3DDF44DB"; // Dirección destino
+console.log("Saldo del remitente:", ethers.formatUnits(senderBalance, 18));
+const senderBalance = await SCZToken.balanceOf(sender.address);
+console.log("Cuenta del remitente:", sender.address);
+const [sender] = await ethers.getSigners();
+console
+const [sender] = await ethers.getSigners();
+console.log("SCZToken conectado en:", SCZToken.target);
+const SCZToken = await ethers.getContractAt("SCZToken", "0xC9115fE453Fb10B4e3c824a64Dba6e66abc04C0A");
+.exit
+console.log("Cuenta del remitente:", sender);
+const sender = await SCZToken.signer.getAddress();
+delete sender;
+matUnits(senderBalance, 18));
+const senderBalance = await SCZToken.balanceOf(sendeconsole.log("Saldo del remitente:", ethers.for
+console.log("Cuenta del remitente:", sender);
+const sender = await SCZToken.signer.getAddress();
+const senderBalance = await SCZToken.balanceOf(sendeconsole.log("Saldo del remitente:", ethers.formatUnits(senderBalance, 18));
+console.log("Cuenta del remitente:", sender);
+const sender = await SCZToken.signer.getAddress();
+console.log("SCZToken conectado con signer:", SCZToken.target);
+const SCZToken = await ethers.getContractAt("SCZToken", "0xC9115fE453Fb10B4e3c824a64Dba6e66abc04C0A", owner);
+console.log("Cuenta del dueño:", owner.address);
+const [owner] = await ethers.getSigners();  
+const SCZToken = await ethers.getContractAt("SCZToken", "0xC9115fEconsole.log("SCZToken conectado con signer:", SCZToken.target);
+const [owner] = await ethers.getSigners();  // Obtiene la primera cuenta disponible
+console.log("Saldo del remitente:", ethers.formatUnits(senderBalance, 18));
+const senderBalance = await SCZToken.balanceOf(sender);
+const sender = await SCZToken.signer.getAddress();
+console.log("SCZToken conectado en:", SCZToken.target);
+const SCZToken = await ethers.getContractAt("SCZToken", "0xC9115fE453Fb10B4e3c824a64Dba6e66abc04C0A");
+nsacción enviada:", tx.hash);
+console.log("✅ Tra
+await tx.wait();
+const amount = ethers.parseUnits("0.const tx = await SCZToken.transfer(recipient, amount);
+const recipient = "0x60d4A409c025E9c792D7EdF8398A9F9a3DDF44DB";
+console.log("SCZToken conectado en:", SCZToken.target);
+const SCZToken = await ethers.getContractAt("SCZToken", "0xC9115fE453Fb10B4e3c824a64Dba6e66abc04C0A");
+console.log("✅ Transacción enviada:", tx.hash);
+await tx.wait();
+const tx = await SCZToken.transfer(recipient, amount);
+const amount = ethers.parseUnits("0.01", 18); // Pequeña cantidad
+const recipient = "0x60d4A409c025E9c792D7EdF8398A9F9a3DDF44DB";
+console.log("Código del contrato:", code);
+const code = await ethers.provider.getCode("0xC9115fE453Fb10B4e3c824a64Dba6e66abc04C0A");
+console.log("Código del contrato:", code);
+const code = await ethers.provider.getCode("0xC9115fE453Fb10B4e3c824a64Dba6e66abc04C0A");
+.exit
+npx hardhat --network fuji console
+npx hardhat verify --network fuji 0xC9115fE453Fb10B4e3c824a64Dba6e66abc04C0A --constructor-args arguments.js
+console.log("Saldo del receptor:", ethers.formatUnits(recipientBalance, 18));
+const recipientBalance = await SCZToken.balanceOf(recipient);
+console.log("✅ Transferencia exit
+await tx.wait();
+console.log("✅ Transferencia exitosa:", tx.hash);
+await tx.wait();
+const tx = await SCZToken.transfer(recipient, amount);
+const amount = ethers.parseUnits("100", 18);
+const recipient = "0x60d4A409c025E9c792D7EdF8398A9F9a3DDF44DB";
+console.log("Saldo del dueño en AVAX:", ethers.formatUnits(balance, 18));
+const balance = await ethers.provider.getBalance(deployerAddress);
+const deployerAddress = "0x453E850135aAAa3f82C541fe2D32ed2303697f79";
+nce, 18));
+const balance = await ethers.pconsole.log("Saldo del dueño en AVAX:", ethers.formatUnits(bala
+const deployerAddress = "0x453E850135aAAa3f82C541fe2D32ed2303697f79";
+console.log("
+const balance = await ethers.provider.getBalance(deployerAddress);
+const deployerAddress = "0x453E850135aAAa3f82C541fe2D32ed2303697f79";
+console.log(await ethers.provider.getTransactionCount("0xC9115fE453Fb10B4e3c824a64Dba6e66abc04C0A"));
+console.log("Total Supply:", (await SCZToken.totalSupply()).toString());
+console.log("Token Symbol:", await SCZToken.symbol());
+console.log("Token Name:", await SCZToken.name());
+console.log("Token Symbol:", await SCZToken.syconsole.log("Total Supply:", (await SCZToken.totalSupply()).toString());
+console.log("Token Name:", await SCZToken.name());
+const SCZToken = await ethers.getContractAt("SCZToken", "0xC9115fE453Fb10B4e3c824a64Dba6e66abc04C0A");
+console.log("Saldo en AVAX:", ethers.formatUnits(balance, 18));
+const balance = await ethers.provider.getBalance("0x453E850135aAAa3f82C541fe2D32ed2303697f79");
+cons
+const [deployer] = await ethers.getSigners();
+npx hardhat run scripts/2_deploy_contracts.js --network fuji
+console.log("Saldo de reserva:", ethers.formatUnits(balanceReserve, 18));
+const balanceReserve = await SCZToken.balanceOf("0x60d4A409c025E9c792D7EdF8398A9F9a3DDF44DB");
+console.log("Saldo de marketing:", ethers.formatUnits(balanceMarketing, 18));
+const balanceMarketing = await SCZToken.balanceOf("0x60d4A409c025E9c792D7EdF8398A9F9a3DDF44DB");
+console.log("Saldo del equipo:", ethers.formatUnits(balanceTeam, 18));
+const balanceTeam = await SCZToken.balanceOf("0x9fa413463F59E7D6d01B379c34FF01a60628e21a");
+console.log("Saldo de liquidez:", ethers.formatUnits(balanceLiquidity, 18));
+const balanceLiquidity = await SCZToken.balanceOf("0x9fa413463F59E7D6d01B379c34FF01a60628e21a");
+console.log("Saldo de preventa:", ethers.formatUnits(balancePreSale, 18));
+const balancePreSale = await SCZToken.balanceOf("0x60d4A409c025E9c792D7EdF8398A9F9a3DDF44DB");
+console.log("Saldo del dueño:", ethers.formatUnits(balanceOwner, 18));
+const balanceOwner = await SCZToken.balanceOf(ownerAddress);
+console.log("Saldo del dueño:", ethers.formatUnits(balanceOwner, 18));
+const balanceOwner = await SCZToken.balanceOf(ownerAddress);
+console.log("Dueño del contrato:", ownerAddress);
+console
+const ownerAddress = await SCZToken.owner();
+co
+const balanceOwner = await SCZToken.balanceOf(owner);
+const owner = await SCZToken.signer.getAddress();
+console.log("Saldo de reserva:", ethers.formatUnits(balanceReserve, 18));
+const balanceReserve = await SCZToken.balanceOf(reserveWallet);
+console.log("Saldo de marketing:", ethers.formatUnits(balanceMarketing, 18));
+const balanceMarketing = await SCZToken.balanceOf(marketingWallet);
+console.log("Saldo del equipo:", ethers.formatUnits(balanceTeam, 18));
+const balanceTeam = await SCZToken.balanceOf(teamWallet);
+console.log("Saldo de liquidez:", ethers.formatUnits(balanceLiquidity, 18));
+const balanceLiquidity = await SCZToken.balanceOf(liquidityWallet);
+console.log("Saldo de preventa:", ethers
+const balancePreSale = await SCZToken.balanceOf(preSaleWallet);
+console.log("Contrato SCZToken conectado en:", SCZToken.target);
+const SCZToken = await ethers.getContractAt("SCZToken", "0x950c80940F5b80F8ff534B713962Bda46dAe2a3f");
+console.log(`El saldo de ${recipient} es: ${ethers.formatUnits(balance, 18)} SCZ`);
+const balance = await SCZToken.balanceOf(recipient);
+console.log(`✅ Transferencia de 100 SCZ realizada a: ${recipient}`);
+ón
+const tawait txTransfer.wait(); // Espera la confirmación de la transacci
+const amount = ethers.parseUnits("100", 18); // Cantidad a transferir en wei (18 decimales)
+const recipient = "0xEF9bA5C90D2aAf58Dc2778B37F8970e76ef362e5"; // Reemplaza con la dirección real
+encia de 100 SCZ realizada a: ${recipient}`);
+console.log(`✅ Transfer
+await txTransfer.wait();
+const txTransfer = await SCZToken.transfer(recipient, amount);
+const am
+const recipient = "0xTuDireccionDestino";
+reserveWallet = "0xEF9bA5C90D2aAf58Dc2778B37F8970e76ef362e5";
+marketingWallet = "0x8595e479B9931BAe04ce8489101e2482E00C5575";
+teamWallet = "0x453E850135aAAa3f82C541fe2D32ed2303697f79";
+liquidityWallet = "0x9fa4134633a4F59E7D6d01B379c34FF01a60628e21a";
+preSaleWallet = "0x60d4A409c025E9c792D7EdF8398A9F9a3DDF44DB";
+reserveWallet = "0xEF9bA5C90D2aAf58Dc2778B37F8970e76ef362e5";
+let = "0x8595e479B9931BAe04ce8489101e2482E00C5575";
+teamWallet = "0x453E8marketingWal
+liquidityWallet = "0x9fa4134633a4F59E7D6d01B379c34FF01a60628e21a";
+preSaleWallet = "0x60d4A409c025E9c792D7EdF8398A9F9a3DDF44DB";
+reserveWallet = "0xEF9bA5C90D2aAf58Dc2778B37F8970e76ef362e5";
+let = "0x8595e479B9931BAe04ce8489101e2482E00C5575";
+teamWallet = "0x453E8marketingWal
+liquidityWallet = "0x9fa4134633a4F59E7D6d01B379c34FF01a60628e21a";
+preSaleWallet = "0x60d4A409c025E9c792D7EdF8398A9F9a3DDF44DB";
+var reserveWallet = "0xEF9bA5C90D2aAf58Dc2778B37F8970e76ef362e5";
+var teamWallevar marketingWallet = "0x8595e479B9931BAe04ce8489101e2482E00C5575";
+var liquidityWallet = "0x9fa4134633a4F59E7D6d01B379c34FF01a60628e21a";
+var preSaleWallet = "0x60d4A409c025E9c792D7EdF8398A9F9a3DDF44DB";
+let reserveWallet = "0xEF9bA5C90D2aAf58Dc2778B37F8970e76ef362e5";
+let marketingWallet = "0x8595e479B9931BAe04ce8489101e2482E00C5575";
+let teamWallet = "0x453E850135aAAa3f82C541fe2D32ed2303697f79";
+let liquidityWallet = "0x9fa4134633a4F59E7D6d01B379c34FF01a60628e21a";
+let preSaleWallet = "0x60d4A409c025E9c792D7EdF8398A9F9a3DDF44DB";
+Af58Dc2778B37F8970e76ef362e5";
+let reserveWallet = "0xEF9bA5C90D2a
+let marketingWallet = "0x8595e479B9931BAe04ce8489101e2482E00C5575";
+let liquidityWallet = "0x9fa413463let teamWallet = "0x453E850135aAAa3f82C541fe2D32ed2303697f79";
+let preSaleWallet = "0x60d4A409c025E9c792D7EdF8398A9F9a3DDF44DB";
+let reserveWallet = "0xEF9bA5C90D2aAf58Dc2778B37F8970e76ef362e5";
+2482E00C5575";
+let marketingWallet = "0x8595e479B9931BAe04ce8489101e
+let liquidityWallet = "0x9fa413463let teamWallet = "0x453E850135aAAa3f82C541fe2D32ed2303697f79";
+let preSaleWallet = "0x60d4A409c025E9c792D7EdF8398A9F9a3DDF44DB";
+.clear
+const reserveWallet = "0x60d4A409c025E9c792D7EdF8398A9F9a3DDF44DB";
+EdF8398A9F9a3DDF44DB";
+const marketingWallet = "0x60d4A409c025E9c792D7
+const liquidityWallet = "0x9fa41const teamWallet = "0x9fa413463F59E7D6d01B379c34FF01a60628e21a";
+const preSaleWallet = "0x60d4A409c025E9c792D7EdF8398A9F9a3DDF44DB";
+const reserveWallet = "0x60d4A409c025E9c792D7EdF8398A9F9a3DDF44DB";
+const marketingWallet = "0x60d4A409c025E9c792D7EdF8398A9F9a3DDF44DB";
+const liquidityWallet = "0x9fa41const teamWallet = "0x9fa413463F59E7D6d01B379c34FF01a60628e21a";
+const preSaleWallet = "0x60d4A409c025E9c792D7EdF8398A9F9a3DDF44DB";
+console.log("Contrato SCZToken conectado en:", SCZToken.target);
+const SCZToken = await ethers.getContractAt("SCZToken", "0x950c80940F5b80F8ff534B713962Bda46dAe2a3f");
+console.log("Saldo de reserva:", ethers.formatUnits(balanceReserve, 18));
+console.log("Saldo de marketing:", ethers.formatUnits(balanceMarketing, 18));
+console.log("Saldo del equipo:", ethers.formatUnits(balanceTeam, 18));
+console.log("Saldo de liquidez:", ethers.formatUnits(balanceLiquidity, 18));
+console.log("Saldo de preventa:", ethers.formatUnits(balancePreSale, 18));
+// Mostrar en consola
+const balanceReserve = await
+const balanceMarketing = await SCZToken.balanceOf(marketingWallet);
+et);
+const balanceTeam = await SCZToken.balanceOf(teamWall
+const balancePreSale = await SCZTokconst balanceLiquidity = await SCZToken.balanceOf(liquidityWallet);
+// Verificar balances
+0d4A409c025E9c792D7EdF8398A9F9a3DDF44DB";
+const marketingWallet = "0x60d4A409c025E9c792Dconst reserveWallet = "0x6
+const teamWallet = "0x9fa413463F59E7D6d01B379c34FF01a60628e21a";
+const liquidityWallet = "0x9fa413463F59E7D6d01B379c34FF01a60628e21a";
+const preSaleWallet = "0x60d4A409c025E9c792D7EdF8398A9F9a3DDF44DB"; 
+console.log("Saldo de reserva:", ethers.formatUnits(balanceReserve, 18));
+console.log("Saldo de marketing:", ethers.formatUnits(balanceMarketing, 18));
+console.log("Saldo del equipo:", ethers.formatUnits(balanceTeam, 18));
+console.log("Saldo de liquidez:", ethers.formatUnits(balanceLiquidity, 18));
+console.log("Saldo de preventa:", ethers.formatUnits(balancePreSale, 18));
+const balanceReserve = await SCZToken.balanceOf(reserveWallet);
+const balanceTeam = await SCZToken.balanceOf(teconst balanceMarketing = await SCZToken.balanceOf(marketingWallet);
+const balanceLiquidity = await SCZToken.balanceOf(liquidityWallet);
+const balancePreSale = await SCZToken.balanceOf(preSaleWallet);
+DIRECCION_RESERVA";
+const reserveWallet = "
+const teaconst marketingWallet = "DIRECCION_MARKETING";
+const liquidityWallet = "DIRECCION_LIQUIDEZ";
+const preSaleWallet = "DIRECCION_PREVENTA"; 
+console.log(`✅ Transferencia exitosa: ${tx.hash}`);
+await tx.wait();
+const tx = await SCZToken.connect(await ethers.getSigner(sender)).transfer(recipient, amount);
+const amount = ethers.parseUnits("100", 18);
+const recipient = owner.address;
+console.log("Saldo del remitente:", ethers.formatUnits(senderBalance, 18));
+const senderBalance = await SCZToken.balanceOf(owner.address);
+console.log("Cuenta del dueño:", owner.address);
+const [owner] = await ethers.getSigners(); // Obtiene la cuenta dueña del contrato
+console.log("Contrato SCZToken conectado en:", SCZToken.target);
+const SCZToken = await ethers.getContractAt("SCZToken", "0x950c80940F5b80F8ff534B713962Bda46dAe2a3f");
+console.log("Saldo del remitente:", ethers.formatUnits(senderBalance, 18));
+const senderBalance = await SCZToken.balanceOf(owner.address);
+console.log("Cuenta del dueño:", owner.address);
+const [owner] = await ethers.getSigners(); // Obtiene el dueño del contrato
+console.log("Saldo del remitente:", ethers.formatUnits(senderBalance, 18));
+const senderBalance = await SCZToken.balanceOf(await SCZToken.signer.getAddress());
+const owner = await SCZToken.signer.getAddress();
+const owner = await SCZToken.signer.getAddress();console.log("Cuenta conectada:", owner);
+const owner = await SCZToken.signer.getAddress();
+console.log(`✅ Transferencia exitosa: ${tx.hash}`);
+await tx.wait(); // Esperar confirmación de la transacción
+const tx = await SCZToken.transfer(recipient, ethers.parseUnits("100", 18));
+console.log("Realizando transferencia...");
+const SCZToken = await ethers.getContractAt("SCZToken", tokenAddress);
+const recipient = "0x60d4A409c025E9c792D7EdF8398A9F9a3DDF44DB"; // Cuenta destino
+const tokenAddress = "0x950c80940F5b80F8ff534B713962Bda46dAe2a3f"; // Dirección del contrato en Fuji
+const { ethers } = require("hardhat"); 
+npx hardhat console --network fuji
+});
+    process.exitCode = 1;
+main().catch((    console.error("❌ Error en la transferencia:", error);
+}
+    console.log(`✅ Transferencia exitosa: ${tx.hash}`);
+    await tx.wait(); // Esperar confirmación de la transacción
+"100", 18));
+     const tx = await SCZToken.transfer(recipient, ethers.parseUnits(
+    console.log("Realizando transferencia...");
+    const SCZToken = await ethers.getContractAt("SCZToken", tokenAddress);
+    // Conectar con el contrato
+    const tokenAddress = "0x950c8094    const recipient = "0x60d4A409c025E9c792D7EdF8398A9F9a3DDF44DB"; // Dirección que recibirá los tokens
+async function main() {
+const { ethers } = require("hardhat");
+console
+const accounts = await ethers.getSigners();
+signers.forEach((signer, index) => console.log(`Cuenta ${index}: ${signer.address}`));
+console.log("Cuentas disponibles:", signers.length);
+console.log("Cuentas disponibles:", signers.lengthsigners.forEach((signer, index) => console.log(`Cuenta ${index}: ${signer.address}`));
+consolesigners.forEach((signer, index) => console.log(`Cuenta ${index}: ${signer.address}`));
+const signers = await ethers.getSigners();
+consolesigners.forEach((signer, index) => console.log(`Cuenta ${index}: ${signer.address}`));
+const signers = await ethers.getSigners();
+console.log("Nueva cuenta receptora:", recipient2.address);
+const recipient2 = (await ethers.getSigners())[1]; // Obtiene la segunda cuenta disponible
+console.log(typeof recipient);
+console.log("Cuenta receptora:", recipient.address);
+console.log("Cuenta dueña del contrato:", owner.address);
+const [owner, recipient] = await ethers.getSigners();
+ient.address);
+console.log("Cuenta dueña del contrato:", owneconsole.log("Cuenta receptora:", recip
+const [owner, recipient] = await ethers.getSigners();
+ncia completada!");
+console.log("Transfere
+const [owner, recipient] = await ethers.getSignersawait sczToken.transfer(recipient.address, ethers.parseUnits("100", 18));
+await sczToken.transfer(recipient.address, ethconsole.log("Transferencia completada!");
+const [owner, recipient] = await ethers.getSigners();
+console.log("Total Supply:", (await sczToken.totalSupply()).toString());
+console.log("Token Symbol:", await sczToken.symbol());
+console.log("Token Name:", await sczToken.name());
+console.log("Total Supply:", (await sczToken.totalSupply()).toString());
+console.log("console.log("Token Symbol:", await sczToken.symbol());
+const sczToken = SCZToken.attach(contractAddress);
+const SCZToken = await ethers.getContractFactory("SCZToken");
+const contractAddress = "0x950c80940F5b80F8ff534B713962Bda46dAe2a3f"; // Usa la dirección correcta del contrato desplegado
